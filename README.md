@@ -101,16 +101,10 @@ Rock-Scissors-Paper/
 │   │   └── labels.txt
 │   ├── models/                  # 训练模型
 │   │   └── keras_model_good.h5
-│   ├── sounds/                  # 音效文件
-│   │   ├── defeat.wav
-│   │   ├── open_sound.wav
-│   │   └── victory.wav
-│   └── samples/                 # 训练样本（不打包）
-│       ├── paper-samples.zip
-│       ├── rock-samples.zip
-│       └── scissors-samples.zip
-├── dist/                        # 打包输出
-│   └── pygame_rockscissorpaper.exe
+│   └── sounds/                  # 音效文件
+│       ├── defeat.wav
+│       ├── open_sound.wav
+│       └── victory.wav
 ├── .gitignore
 ├── readme图片.png
 └── README.md
