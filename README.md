@@ -42,7 +42,7 @@ irm https://astral.sh/uv/install.ps1 | iex
 **2. 创建虚拟环境**
 
 ```powershell
-cd F:\Project\Rock-Scissors-Paper
+cd 你的项目路径  # 例如: cd F:\Project\Rock-Scissors-Paper
 uv python install 3.8
 uv venv --python 3.8
 .\venv\Scripts\activate
@@ -61,16 +61,6 @@ python pygame_rockscissorpaper.py
 ```
 
 或直接双击 `start.vbs`（无命令行窗口）。
-
-## 打包为 exe
-
-```powershell
-uv pip install pyinstaller
-
-pyinstaller --onefile --windowed --add-data data/fonts;data/fonts --add-data data/images;data/images --add-data data/sounds;data/sounds --add-data data/models;data/models --add-data data/labels;data/labels pygame_rockscissorpaper.py
-```
-
-打包完成后，exe 位于 `dist/pygame_rockscissorpaper.exe`，无需安装 Python 即可运行。
 
 ## 依赖列表
 
